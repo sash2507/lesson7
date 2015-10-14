@@ -1,0 +1,12 @@
+body {
+	font-family: "Verdana", sans-serif;
+	background-color: #D8D8D8;
+	color: #585858;
+}
+
+#header {
+	height: 162px;
+	padding: 20px;
+	margin: 0px 5px 15px 0px;
+	background-color: #A4A4A4;
+	color: black;
