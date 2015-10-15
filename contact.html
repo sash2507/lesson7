@@ -26,6 +26,12 @@
 			text-align: center;
 			border: 5px solid #DF0101;
 		}
+		/*Header Logo styling*/
+		#header img {
+			float: left;
+			height: 120px;
+			margin-right: 20px;
+		}
 		/*Nav Bar styling*/
 		nav ul {
 			margin-right: auto;
@@ -50,6 +56,31 @@
 		a:hover {
 			color: yellow;
 		}
+		/*Address styling*/
+		.address {
+			display: inline-block;
+			float: left;
+			margin-left: 30px;
+		}
+		/*Mailing List submit button styling*/
+		.emails {
+			display: block;
+			float: right;
+			margin-bottom: 30px;
+			margin-right: 30px;
+			margin-left: 30px;
+		}
+		/*Main image styling*/
+		.mainpic {
+			display: inline-block;
+			float: left;
+			margin-left: 40px;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+		.clearfix {
+			clear: both;
+		}
 
 	</style>
 </head>
@@ -64,7 +95,33 @@
 	</nav>	
 	
 	<div id="header">
+		<img src="logo.jpg"/>
 		<h1>The Diana Prince Support Society</h1>
 	</div>
+
+	<div class="address">
+		<h3>Contact Us:</h3>
+		<p>The Diana Prince Support Society</p>
+		<p>1234 Crystal Castle Court</p>
+		<p>New York, NY 12345</p>
+		<p>tel. 212.345.6789</p>
+		<p>info@dpss.org</p>
+	</div>
+
+	<img class="mainpic" src="wonder-woman1.jpg"/>
+
+	<div class="clearfix"></div>
+
+	<div class="emails">
+		<h3>For More Information:</h3>
+		<p>Click the button to receive further information from The Diana Prince Support Society.</p>
+
+		<button onclick="myFunction()">Join Mailing List</button>
+
+		<p id="email"></p>
+	</div>
+
+
+
 </body>
 </html>
