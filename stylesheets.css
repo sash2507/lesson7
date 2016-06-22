@@ -1,0 +1,36 @@
+body {
+	font-family: "Verdana", sans-serif;
+	background-color: #D8D8D8;
+	color: #585858;
+}
+
+#header {
+	height: 120px;
+	padding: 20px;
+	margin: 0px 5px 15px 15px;
+	background-color: #FF0000;
+	color: white;
+	text-align: center;
+	border: 5px solid #DF0101;
+}
+nav ul {
+	margin: 0px 5px 0px 15px;
+	padding: 10px;
+	background-color: #DF0101;
+}
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid #DF0101;
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	color: yellow;
+}
